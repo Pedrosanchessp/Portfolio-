@@ -10,9 +10,12 @@ const projects = [
     tech: ['Next.js', 'AI', 'SaaS'],
     link: 'https://yuanas.vercel.app/'
   },
-  { title: 'Aether OS', description: 'A sleek, web-based operating system built with React.', tech: ['React', 'TypeScript', 'Tailwind'], link: '#' },
-  { title: 'Nebula UI', description: 'A collection of high-performance UI components.', tech: ['Framer Motion', 'Radix'], link: '#' },
-  { title: 'Lumina API', description: 'Real-time data visualization engine for IoT devices.', tech: ['Node.js', 'WebSockets'], link: '#' }
+  { 
+    title: 'Portfolio', 
+    description: 'My personal portfolio showcasing my projects, skills, and journey as a developer.', 
+    tech: ['Next.js', 'Tailwind', 'Framer Motion'],
+    link: 'https://github.com/Pedrosanchessp/Portfolio-'
+  }
 ];
 
 export default function Projects() {
@@ -43,7 +46,7 @@ export default function Projects() {
               >
                 <div className="flex justify-between items-start">
                   <div className="size-12 rounded-2xl bg-white/5 flex items-center justify-center text-xl group-hover:bg-white/10 transition-colors">
-                    {project.title === 'Yuanas' ? '🇨🇳' : '📁'}
+                    {project.title === 'Yuanas' ? '🇨🇳' : project.title === 'Portfolio' ? '✨' : '📁'}
                   </div>
                   <div className="text-white/20 group-hover:text-white/60 transition-colors">
                     <svg className="size-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">

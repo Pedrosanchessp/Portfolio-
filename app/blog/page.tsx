@@ -15,15 +15,6 @@ const posts = [
 Beyond the code, I realized that developers often forget the 'User' part of the equation. Importers don't care about my stack—they care about not getting fined by customs. Integrating a real-time Tax Analysis engine was the turning point where the tool became a necessity rather than a luxury.`
   },
   { 
-    id: 'first-customers',
-    date: '2026.07.23', 
-    title: 'Acquiring the First Customers in a Niche Market', 
-    excerpt: 'How I navigated the importing community to build trust and prove the value of Yuanas. It wasn’t about the marketing budget.',
-    content: `Trust is the most expensive currency in niche communities. To get the first 100 users for Yuanas, I didn't run ads. I spent weeks in Discord servers and subreddits, not as a salesman, but as a problem solver. 
-
-When someone complained about a complex declaration, I would manually generate one for them using my prototype and send it over. That 'Hand-holding' phase was crucial. It provided me with immediate feedback and created a core group of power users who then became my biggest advocates. Word of mouth in a tight-knit community is 10x more effective than a landing page.`
-  },
-  { 
     id: 'ai-future',
     date: '2026.07.23', 
     title: 'The Future of Software Engineering in the Age of AI', 
