@@ -1,0 +1,6 @@
+{
+  "name": "Personal Portfolio",
+  "description": "A clean and modern personal portfolio with grid background and interactive effects.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
